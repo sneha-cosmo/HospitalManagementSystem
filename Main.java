@@ -23,17 +23,17 @@ public class Main {
             int ch = sc.nextInt();
 
             switch (ch) {
-                case 1 : hs.addPatient();
-                case 2 : hs.viewPatients();
-                case 3 : hs.searchPatient();
-                case 4 : hs.updatePatient();
-                case 5 : hs.deletePatient();
-                case 6 : hs.addDoctor();
-                case 7 : hs.viewDoctors();
-                case 8 : hs.bookAppointment();
-                case 9 : hs.viewAppointments();
-                case 10 : { System.out.println("Thank You!"); return; }
-                default : System.out.println("Invalid Choice");
+                case 1 -> hs.addPatient();
+                case 2 -> hs.viewPatients();
+                case 3 -> hs.searchPatient();
+                case 4 -> hs.updatePatient();
+                case 5 -> hs.deletePatient();
+                case 6 -> hs.addDoctor();
+                case 7 -> hs.viewDoctors();
+                case 8 -> hs.bookAppointment();
+                case 9 -> hs.viewAppointments();
+                case 10 -> { System.out.println("Thank You!"); return; }
+                default -> System.out.println("Invalid Choice");
             }
         }
     }
